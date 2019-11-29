@@ -1,5 +1,5 @@
 import React from "react";
-import RecordRTC from "recordrtc";
+import RecordRTC from "../business/recordrtc-business";
 import { FaCircle, FaStop, FaPause, FaPlay } from 'react-icons/fa';
 import RecorderBusiness from "../business/recorder-business";
 import "../App.css";
@@ -23,6 +23,7 @@ export default class Recorder extends React.Component {
                 video: { width: 1920, height: 1080 },
                 frameInterval: 90,
                 frameRate: 90,
+                disableLogs: false
             });
             recorder.startRecording();
             this.setState({ isRecording: true, isPaused: false });
