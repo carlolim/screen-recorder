@@ -29,7 +29,7 @@ export default class LandingPage extends React.Component {
                                     Download your recordings right away.
                                 </p>
                                 <p>
-                                    <Link href="/recorder">
+                                    <Link href="/recorder" as={`${process.env.ASSET_PREFIX}/recorder`}>
                                         <Button className="main-button mt-3" size="lg" variant="danger"><FaCircle className="mr-2" /> RECORD</Button>
                                     </Link>
                                 </p>

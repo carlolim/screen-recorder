@@ -13,7 +13,7 @@ export default (props) => (
         <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand>
-                    <Link href="/">
+                    <Link href="/" as={`${process.env.ASSET_PREFIX}/`}>
                         <a>🎥</a>
                     </Link>
                 </Navbar.Brand>
@@ -21,7 +21,7 @@ export default (props) => (
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto"></Nav>
                     <Nav>
-                        <Link href="/recorder"><a className="nav-link">Recorder</a></Link>
+                        <Link href="/recorder" as={`${process.env.ASSET_PREFIX}/recorder`}><a className="nav-link">Recorder</a></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
