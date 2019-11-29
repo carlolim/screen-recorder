@@ -1,0 +1,123 @@
+.card {
+    min-height: 250px;
+}
+
+.main-button svg {
+    margin-top: -5px;
+}
+
+.jumbotron-content {
+    position: relative;
+    min-height: 400px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.top-left {
+    border-top: solid 10px #000;
+    width: 70px;
+    height: 70px;
+    border-left: solid 10px #000;
+    position: absolute;
+}
+
+.top-right {
+    border-top: solid 10px #000;
+    width: 70px;
+    height: 70px;
+    right: 0;
+    position: absolute;
+    border-right: solid 10px #000;
+}
+.bottom-left {
+    border-bottom: solid 10px #000;
+    width: 70px;
+    height: 70px;
+    border-left: solid 10px #000;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom-right {
+    border-bottom: solid 10px #000;
+    width: 70px;
+    height: 70px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border-right: solid 10px #000;
+}
+
+.rec-text {
+    position: absolute;
+    right: 32px;
+    color: red;
+    top: 15px;
+}
+
+.rec-text svg {
+    margin-top: -5px;
+}
+
+.battery {
+    font-size: 32px;
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+}
+
+.time {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    font-size: 20px;
+}
+.action-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: none;
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  padding: 0;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.action-button:disabled {
+  background-color: gray;
+  color: #a7a3a3;
+  cursor: not-allowed;
+}
+
+.action-button svg {
+  margin-top: -10px;
+}
+
+.btn-red {
+  background-color: #f53333;
+}
+
+.btn-green {
+  background-color: #109210;
+}
+
+.color-white {
+  color: white;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.list-instructions {
+  background-color: white;
+}
+.list-instructions li {
+  margin-bottom: 30px;
+}
+.list-instructions li img {
+  max-width: 100%;
+}
