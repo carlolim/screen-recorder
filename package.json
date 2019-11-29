@@ -1,0 +1,38 @@
+{
+  "name": "screen-recorder",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.4.0",
+    "formidable": "^1.2.1",
+    "mime": "^2.4.4",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
+    "react-scripts": "3.2.0",
+    "recordrtc": "^5.5.8"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

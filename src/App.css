@@ -1,0 +1,50 @@
+.action-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: none;
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  padding: 0;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.action-button:disabled {
+  background-color: gray;
+  color: #a7a3a3;
+  cursor: not-allowed;
+}
+
+.action-button svg {
+  margin-top: -10px;
+}
+
+.btn-red {
+  background-color: #f53333;
+}
+
+.btn-green {
+  background-color: #109210;
+}
+
+.color-white {
+  color: white;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.list-instructions {
+  background-color: white;
+}
+.list-instructions li {
+  margin-bottom: 30px;
+}
+.list-instructions li img {
+  max-width: 100%;
+}
