@@ -16,7 +16,7 @@ export default (props) => (
             <Container>
                 <Navbar.Brand>
                     <Link href="/" as={`${process.env.ASSET_PREFIX}/`}>
-                        <span className="cusor-pointer">screen-recorder</span>
+                        <span className="cursor-pointer">screen-recorder</span>
                     </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

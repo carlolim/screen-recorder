@@ -5,7 +5,8 @@ const assetPrefix = isProd ? '/screen-recorder' : ''
 module.exports = withCSS({
     exportPathMap: () => ({
         '/': { page: '/' },
-        // '/recorder': { page: '/recorder' },
+        '/recorder': { page: '/recorder' },
+        '/help': { page: '/help' },
     }),
     assetPrefix: assetPrefix,
     webpack: config => {

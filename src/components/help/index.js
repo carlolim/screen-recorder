@@ -9,7 +9,7 @@ export default (props) => (
                 <li>
                     <h5>Step 1</h5>
                     <p>Click on the red button to start recording</p>
-                    <img alt="" src="/images/step1.png" />
+                    <img alt="" src={`${process.env.ASSET_PREFIX}/images/step1.png`} />
                 </li>
                 <li>
                     <h5>Step 2</h5>
@@ -21,17 +21,17 @@ export default (props) => (
                         <li><b>Application Window: </b>you will record a specific window or app weather it is minimized or maximized.</li>
                         <li><b>Chrome Tab: </b>you will record a specific Chrome Tab weather it is active or not.</li>
                     </ul>
-                    <img alt="" src="/images/step2.png" />
+                    <img alt="" src={`${process.env.ASSET_PREFIX}/images/step2.png`} />
                 </li>
                 <li>
                     <h5>Step 3</h5>
                     <p>The green button is to pause the recording, while the red one is to stop the recording</p>
-                    <img alt="" src="/images/step3.png" />
+                    <img alt="" src={`${process.env.ASSET_PREFIX}/images/step3.png`} />
                 </li>
                 <li>
                     <h5>Step 4</h5>
                     <p>The green button is to resume the recording.</p>
-                    <img alt="" src="/images/step4.png" />
+                    <img alt="" src={`${process.env.ASSET_PREFIX}/images/step4.png`} />
                 </li>
                 <li>
                     <h5>Step 5</h5>
@@ -39,7 +39,7 @@ export default (props) => (
                             <br />
                         <i>Note: i'm working on a feature that allows saving in .mp4 format</i>
                     </p>
-                    <img alt="" src="/images/step5.png" />
+                    <img alt="" src={`${process.env.ASSET_PREFIX}/images/step5.png`} />
                 </li>
             </ul>
         </Container>
