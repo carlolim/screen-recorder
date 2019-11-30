@@ -1,8 +1,8 @@
 import React from "react";
-import RecordRTC from "../business/recordrtc-business";
+import RecordRTC from "../../business/recordrtc-business";
 import { FaCircle, FaStop, FaPause, FaPlay } from 'react-icons/fa';
-import RecorderBusiness from "../business/recorder-business";
-import "../App.css";
+import RecorderBusiness from "../../business/recorder-business";
+import "../../App.css";
 
 var recorder; // the variable to handle recordRTC object
 

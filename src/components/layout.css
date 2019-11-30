@@ -1,0 +1,10 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.nav-recorder-icon {
+    color: red;
+    margin-top: -5px;
+    font-size: 12px;
+    margin-right: 3px;
+}

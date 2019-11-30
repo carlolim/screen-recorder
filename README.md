@@ -1,6 +1,6 @@
-# ScreenRecorder
+# [scree-recorder](https://carlolim.github.io/screen-recorder/)
 
-screen-recorder lets you record your entire screen, specific browser tab, or an application window.
+No installation, No download, No shits. screen-recorder lets you record your entire screen, specific browser tab, or an application window.
 
 ### Note
 **Does not work on mobile browsers!**
