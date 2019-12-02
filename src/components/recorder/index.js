@@ -54,30 +54,36 @@ export default class Recorder extends React.Component {
     render() {
         return (
             <>
-                <button 
-                    className="action-button btn-red" 
-                    disabled={this.state.isRecording} 
-                    onClick={this._startRecording.bind(this)}>
+                <div className="mt-5 text-center">
+                    <p>
+                        <b>Note: Mobile browsers are not supported!</b>
+                    </p>
+                    <button
+                        className="action-button btn-red"
+                        disabled={this.state.isRecording}
+                        onClick={this._startRecording.bind(this)}>
                         <FaCircle />
                     </button>
-                <button 
-                    className="action-button btn-green" 
-                    disabled={!this.state.isPaused} 
-                    onClick={this._resumeRecording.bind(this)}>
+                    <button
+                        className="action-button btn-green"
+                        disabled={!this.state.isPaused}
+                        onClick={this._resumeRecording.bind(this)}>
                         <FaPlay />
                     </button>
-                <button 
-                    className="action-button btn-green" 
-                    disabled={!(this.state.isRecording && !this.state.isPaused)} 
-                    onClick={this._pauseRecording.bind(this)}>
+                    <button
+                        className="action-button btn-green"
+                        disabled={!(this.state.isRecording && !this.state.isPaused)}
+                        onClick={this._pauseRecording.bind(this)}>
                         <FaPause />
                     </button>
-                <button 
-                    className="action-button btn-red" 
-                    disabled={!this.state.isRecording} 
-                    onClick={this._stopRecording.bind(this)}>
+                    <button
+                        className="action-button btn-red"
+                        disabled={!this.state.isRecording}
+                        onClick={this._stopRecording.bind(this)}>
                         <FaStop />
                     </button>
+                </div>
+
             </>
         )
     }

@@ -7,6 +7,7 @@ module.exports = withCSS({
         '/': { page: '/' },
         '/recorder': { page: '/recorder' },
         '/help': { page: '/help' },
+        '/waitlang': { page: '/waitlang' },
     }),
     assetPrefix: assetPrefix,
     webpack: config => {

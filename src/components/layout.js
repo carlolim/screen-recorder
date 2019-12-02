@@ -27,8 +27,8 @@ export default (props) => (
                             <a className="nav-link"><FaCircle className="nav-recorder-icon" /> Recorder</a>
                         </Link>
                         <Link href="/help" as={`${process.env.ASSET_PREFIX}/help`}><a className="nav-link">Help</a></Link>
-                        <Link href="/recorder" as={`${process.env.ASSET_PREFIX}/recorder`}><a className="nav-link">Technologies</a></Link>
-                        <Link href="/recorder" as={`${process.env.ASSET_PREFIX}/recorder`}><a className="nav-link">About</a></Link>
+                        <Link href="/waitlang" as={`${process.env.ASSET_PREFIX}/waitlang`}><a className="nav-link">Technologies</a></Link>
+                        <Link href="/waitlang" as={`${process.env.ASSET_PREFIX}/waitlang`}><a className="nav-link">About</a></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
