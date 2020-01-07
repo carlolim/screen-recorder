@@ -2,6 +2,7 @@ import React from "react";
 import RecordRTC from "../../business/recordrtc-business";
 import { FaCircle, FaStop, FaPause, FaPlay } from 'react-icons/fa';
 import RecorderBusiness from "../../business/recorder-business";
+import MetadataBusiness from "../../business/metadata-business";
 import "../../App.css";
 
 var recorder; // the variable to handle recordRTC object
@@ -44,8 +45,13 @@ export default class Recorder extends React.Component {
 
     _stopRecording = async () => {
         this.setState({ isRecording: false, isPaused: false });
-        recorder.stopRecording(() => {
+        recorder.stopRecording(async () => {
             var blob = recorder.getBlob();
+            
+            // by default meta data are missing from the file output
+            // inject the missing metadata such as video length, size, dimension etc.
+            await MetadataBusiness.InjectMetadata(blob);
+            
             var fileName = 'recording.webm';
             RecorderBusiness.SaveAs(blob, fileName);
         });
